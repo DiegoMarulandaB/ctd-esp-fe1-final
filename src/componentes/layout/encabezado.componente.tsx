@@ -1,12 +1,14 @@
 import {Link} from "react-router-dom";
 import './encabezado.css';
 
+//para resaltar los comentarios usar la extensiòn better comments
+
 /**
  * Encabezado que contiene los links para navegar entre las páginas
  *
- * Uso: `<Encabezado />`
- *
- * @returns {JSX.Element}
+ * *Uso: `<Encabezado />`
+ * @author Diego A. Marulanda
+ * @returns { JSX.Element }
  */
 const Encabezado = () => {
 
