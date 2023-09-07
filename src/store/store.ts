@@ -3,7 +3,8 @@ import { composeWithDevTools } from 'redux-devtools-extension';
 
 //para resaltar los comentarios usar la extensiòn better comments
 
-// * Importamos el applyMiddleware de Redux, para poder agregar Thunk o Saga como Middleware
+// * Importamos el applyMiddleware de Redux, para poder agregar Thunk o Saga como Middleware.
+
 import { createStore, applyMiddleware } from 'redux';
 import { TypedUseSelectorHook, useSelector as useReduxSelector } from "react-redux";
 
