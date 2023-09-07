@@ -35,9 +35,9 @@ const TarjetaPersonaje = ({
   //para resaltar los comentarios usar la extensiòn better comments
 
   /**
-   * *Función que en caso que el personaje no se encuentre en Favoritos, al clickear despacha la acción para agregarlo.
+   * *Función que en caso que el personaje no se encuentre en Favoritos, al dar click despacha la acción para agregarlo.
    * 
-   * Si ya se encuentra en favoritos, al volver a clickear se elimina.
+   * Si ya se encuentra en favoritos, al volver a  dar click se elimina.
    */
   const agregarFav = () => {
     !esFavorito

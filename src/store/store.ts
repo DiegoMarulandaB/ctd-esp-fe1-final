@@ -20,7 +20,7 @@ const rootReducer = combineReducers({
 });
 
 
-// solo para TS
+// solo sirve en  TypeScript
 export type IRootState = ReturnType<typeof rootReducer>;
 
 // Tipado del hook useSelector

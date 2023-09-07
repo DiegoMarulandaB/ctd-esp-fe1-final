@@ -33,7 +33,7 @@ const PaginaDetalle = ({
 
   /**
    * Función que sirve por sino se encuentra el  personaje en Favoritos, al dar click despacha la acción para agregarlo.
-   * Si ya se encuentra en favoritos, al volver a clickear se elimina.
+   * Si ya se encuentra en favoritos, al volver a dar  click se elimina.
    */
   const agregarFav = () => {
     !esFavorito
