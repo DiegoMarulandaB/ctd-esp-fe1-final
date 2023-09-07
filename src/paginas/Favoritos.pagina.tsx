@@ -16,6 +16,7 @@ import Personajes from "../types/personajes.types";
  *
  * @author Diego A. Marulanda
  * @returns { JSX element }
+ *
  */
 const PaginaFavoritos = (): JSX.Element => {
   const favoritos = useSelector((state) => state.favoritos.favoritos);

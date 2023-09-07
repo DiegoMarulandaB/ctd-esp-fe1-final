@@ -6,7 +6,7 @@ import './boton-favorito.css';
 /**
  * *Boton que indica si un elemento es favorito o no, y da la posibilidad de marcarlo/desmarcarlo
  *
- * Se debe tipar las propiedades si usas este componente
+ * Se debe tipar las propiedades para usar este componente
  *
  * @author Diego A. Marulanda
  * @param { object | undefined } esFavorito

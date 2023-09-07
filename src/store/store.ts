@@ -22,7 +22,7 @@ const rootReducer = combineReducers({
 // solo para TS
 export type IRootState = ReturnType<typeof rootReducer>;
 
-// Tipamos el hook useSelector
+// Tipado del hook useSelector
 export const useSelector: TypedUseSelectorHook<IRootState> = useReduxSelector
 
 //!esta deprecado, se usa configureStore. Al store ingresamos a los reducers, es decir, estados y acciones

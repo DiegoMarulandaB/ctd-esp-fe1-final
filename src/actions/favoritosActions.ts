@@ -45,3 +45,4 @@ export const eliminarTodosFavoritos: ActionCreator<
     type: "ELIMINAR_TODOS_FAVORITOS",
   };
 };
+

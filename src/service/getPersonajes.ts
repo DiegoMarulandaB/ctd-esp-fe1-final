@@ -3,11 +3,12 @@ import Personajes from "../types/personajes.types";
 //para resaltar los comentarios usar la extensiòn better comments
 
 /**
- *  *Función que realiza el llamado a la API de Rick y Morty para obtener información sobre los personajes. 
- * En caso de paginacion el componente enviará como argumento un string que contiene la palabra "page" que realizará el pedido de la
- * siguiente o anterior página según corresponda. En el caso del componente filtros.componente realiza el pedido de personajes que
- * coincidan con la búsqueda del usuario.
- * 
+ *
+ *
+ *  *Función que realiza el llamado a la API de Rick y Morty para obtener información sobre los personajes.
+ * En caso de paginacion el componente enviará como argumento un string que contiene la palabra "page" que realizará el pedido de la siguiente o anterior página según corresponda.
+ * En el componente filtros. Este componente realizara el pedido de personajes que sea igual al que este solicitando el usuario.
+ *
  * @author Diego A. Marulanda.
  * @param {string} nombre
  * @returns {array}

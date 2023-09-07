@@ -8,8 +8,7 @@ import './tarjeta-episodio.css';
  * Agregar las propiedades necesarias para mostrar los datos de los episodios
  *
  * @author Diego A. Marulanda
- * @returns { JSX element}
- * @returns un JSX element 
+ * @returns { JSX element }
  */
 const TarjetaEpisodio = (): JSX.Element => {
   return (

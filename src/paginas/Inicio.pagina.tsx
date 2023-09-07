@@ -13,8 +13,6 @@ import { useEffect } from "react";
 /**
  * *Esta es la pagina principal. Aquí se debera ver el panel de filtros junto con la grilla de personajes.
  *
- * Uso:
- * ``` <PaginaInicio /> ```
  *
  * @author Diego A. Marulanda
  * @returns {JSX element}

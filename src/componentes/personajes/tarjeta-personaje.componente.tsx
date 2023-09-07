@@ -16,7 +16,7 @@ import {
  *
  * @author Diego A. Marulanda
  * @param { Personaje } personaje
- * @returns {JSX element}
+ * @returns { JSX element }
  */
 
 const TarjetaPersonaje = ({
@@ -36,6 +36,7 @@ const TarjetaPersonaje = ({
 
   /**
    * *Función que en caso que el personaje no se encuentre en Favoritos, al clickear despacha la acción para agregarlo.
+   * 
    * Si ya se encuentra en favoritos, al volver a clickear se elimina.
    */
   const agregarFav = () => {
