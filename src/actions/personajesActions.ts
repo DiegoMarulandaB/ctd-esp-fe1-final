@@ -64,9 +64,6 @@ export const descargaPersonajesExitosa: ActionCreator<
     type: "DESCARGA_EXITOSA_PERSONAJES",
     isLoading: false,
     data: data,
-    // payload: {
-    //     personajes: personajes
-    // },
   };
 };
 

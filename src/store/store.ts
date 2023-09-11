@@ -20,7 +20,7 @@ const rootReducer = combineReducers({
 });
 
 
-// solo sirve en  TypeScript
+// solo sirve en TypeScript para que nos diga el tipo de datos que retorna nuestro store.
 export type IRootState = ReturnType<typeof rootReducer>;
 
 // Tipado del hook useSelector
@@ -30,3 +30,6 @@ export const useSelector: TypedUseSelectorHook<IRootState> = useReduxSelector
 export const store = createStore(
     rootReducer, composeWithDevTools(applyMiddleware(thunk))
 );
+
+
+
