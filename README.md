@@ -1,8 +1,7 @@
 # ctd-esp-fe1-final
 Examen Final de Frontend IV
 
-## 
-Proyecto final de la asignatura Frontend de la especialización en Digital House (repositorio clonado de dicha academia). Desarrollado en TypeScript, Redux, Thunk y sus mejores prácticas, utilizando la API de Rick and Morty. 21/09/2023.
+## Proyecto final de la asignatura Frontend de la especialización en Digital House (repositorio clonado de dicha academia). Desarrollado en TypeScript, Redux, Thunk y sus mejores prácticas, utilizando la API de Rick and Morty. 21/09/2023.
 
 ## Final project of the Frontend subject of the Digital House specialization (cloned repository of said academy). Developed in TypeScript, Redux, Thunk and their best practices, using the Rick and Morty API. 21/09/2023.
 
